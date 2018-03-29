@@ -1,0 +1,74 @@
+{
+  "intents": [
+    {
+      "intent": "FlightStatus",
+      "slots": [
+        {
+          "name": "Airline",
+          "type": "AIRLINE"
+        },
+        {
+          "name": "FlightNumber",
+          "type": "AIRLINE"
+        }
+      ]
+    },
+    {
+      "intent": "FlightDetails",
+      "slots": [
+        
+        {
+          "name": "FlightNumber",
+          "type": "AIRLINE"
+        }
+      ]
+    },
+    {
+      "intent": "InFlightInfo",
+      "slots": [
+        
+        {
+          "name": "FlightNumber",
+          "type": "AIRLINE"
+        }
+      ]
+    },
+    {
+      "intent": "AirportOperation",
+      "slots": [
+        
+        {
+          "name": "FlightNumber",
+          "type": "AIRLINE"
+        }
+      ]
+    },
+    {
+      "intent": "ZipcodeDetails",
+      "slots": [
+        
+        {
+          "name": "FlightNumber",
+          "type": "AIRLINE"
+        }
+      ]
+    },
+    {
+      "intent": "AirlineInsight",
+      "slots": [
+        
+        {
+          "name": "FlightNumberFrom",
+          "type": "AIRLINE"
+        },
+        {
+          "name": "FlightNumberTo",
+          "type": "AIRLINE"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
